@@ -2,6 +2,10 @@
 
 This guide provides step-by-step instructions for installing and running **ComfyUI** within a containerized environment (using **Podman** as a drop-in replacement for Docker) specifically configured for **ROCm GFX1151** compatibility.
 
+Performance is pretty reasonable, generating a basic image using Illustrious at 832x1216 at 32 steps in about 21 seconds
+
+![Working Screenshot](Screenshot_20250930_220018.png)
+
 ## **1\. Initial Setup: Alias docker to podman**
 
 Since the provided commands use the docker syntax, we set up an alias so that your system executes podman when you type docker.
